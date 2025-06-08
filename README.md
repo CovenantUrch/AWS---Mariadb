@@ -1,5 +1,8 @@
 <h1>Creating and connecting to a MariaDB DB instance</h1>
 
+<h2>Purpose of this project</h2>
+To demostrate the deployment of a MariaDB database instance on Amazon Web Service (AWS) Relational Database Service(RDS) and connect it using a EC2 Instance.
+
 <h2>Description</h2>
 creates an EC2 instance and an RDS for MariaDB DB instance. The tutorial shows you how to access the DB instance from the EC2 instance using a standard MySQL client. As a best practice, this tutorial creates a private DB instance in a virtual private cloud (VPC). In most cases, other resources in the same VPC, such as EC2 instances, can access the DB instance, but resources outside of the VPC can't access it.
 <br />
