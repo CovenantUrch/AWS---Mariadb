@@ -3,7 +3,11 @@
 <h2>Purpose of this project</h2>
 To demostrate the deployment of a MariaDB database instance on Amazon Web Service (AWS) Relational Database Service(RDS) and connect it using a EC2 Instance.
 
-<h2>Description</h2>
+<br/>
+<img src="getting-started-mariadb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<h2>Description</h2>getting-started-mariadb.png
 creates an EC2 instance and an RDS for MariaDB DB instance. The tutorial shows you how to access the DB instance from the EC2 instance using a standard MySQL client. As a best practice, this tutorial creates a private DB instance in a virtual private cloud (VPC). In most cases, other resources in the same VPC, such as EC2 instances, can access the DB instance, but resources outside of the VPC can't access it.
 <br />
 
@@ -51,6 +55,9 @@ The basic building block of Amazon RDS is the DB instance. This environment is w
 - <b>In the upper-right corner of the Amazon RDS console, choose the AWS Region in which you want to create the DB instance.</b>
 - <b>In the navigation pane, choose Databases.</b>
 - <b>Choose Create database and select Easy create.</b>
+<br/>
+<img src="easy-create-option.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 - <b>In Configuration, choose MariaDB.</b>
 - <b>For DB instance size, choose Free tier.</b>
 - <b>For DB instance identifier, enter database-test1</b>
